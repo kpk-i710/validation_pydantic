@@ -1,3 +1,5 @@
 fastapi
 uvicorn
 tortoise-orm
+pydantic
+email-validator

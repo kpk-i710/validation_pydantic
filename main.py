@@ -9,7 +9,7 @@ data = {
 
 class UserSchema(BaseModel):
     email:EmailStr
-    bio:str | None
+    bio:str | None = Field(max_length=1000)
     age: int = Field(ge=0,le=130)
 
 
